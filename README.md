@@ -37,22 +37,22 @@ exports.params.email = {
 
 You can use any of the following data types from this module:
 
-- `string`
-- `boolean`
-- `float`
-- `integer`
-- `date` *Returns a date object*
-- `file` *Returns a multer object*
-- `json` *Returns an object from JSON.parse*
-- `email`
-- `ip`
-- `url`
-- `domain`
-- `base64`
-- `color` *Hexidecimal color*
-- `hex` *Hexidecimal number*
-- `isbn`
-- `isin`
-- `uuid`
-- `mongo` *Mongo object id*
-- `card` *Debit/credit card*
+- string
+- boolean
+- float
+- integer
+- date *(Returns a date object)*
+- file *(Returns a multer object)*
+- json *(Returns an object from JSON.parse)*
+- email
+- ip
+- url
+- domain
+- base64
+- color *(Hexidecimal color)*
+- hex *(Hexidecimal number)*
+- isbn
+- isin
+- uuid
+- mongo *(Mongo object id)*
+- card *(Credit or debit card)*
