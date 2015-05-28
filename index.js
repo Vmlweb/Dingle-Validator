@@ -36,12 +36,12 @@ exports.date = function(object, error){
 //------------------------------------------------------------
 //File
 exports.file = function(object, error){
-	if (!object, error.hasOwnProperty('path')){
+	if (!object.hasOwnProperty('path')){
 		throw error || "";
-	}else if (object, error.size == 0){
+	}else if (object.size == 0){
 		throw error || "";
 	}
-	return object, error;
+	return object;
 }
 //JSON
 exports.json = function(object, error){
