@@ -1,0 +1,47 @@
+{
+  "name": "dingle-validator",
+  "version": "0.0.1",
+  "description": "Parameter Validation for Dingle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vmlweb/Dingle-Validator.git"
+  },
+  "keywords": [
+    "dingle",
+    "framework",
+    "module",
+    "api",
+    "layout",
+    "endpoint",
+    "backend",
+    "scalable",
+    "scale",
+    "maintain",
+    "maintainable",
+    "manager",
+    "export",
+    "code",
+    "generation",
+    "generator",
+    "client",
+    "validation",
+    "validator",
+    "validate",
+    "parameter",
+    "argument",
+    "option"
+  ],
+  "author": "Vmlweb <admin@vmlweb.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vmlweb/Dingle-Validator/issues"
+  },
+  "homepage": "https://github.com/Vmlweb/Dingle-Validator#readme",
+  "dependencies": {
+    "validator": "^3.40.0"
+  }
+}
