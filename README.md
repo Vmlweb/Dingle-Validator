@@ -41,21 +41,18 @@ You can use any of the following data types from this module:
 - `boolean`
 - `float`
 - `integer`
-- `date  *Returns a date object*`
-
-- `file  *Returns a multer object*`
-- `json  *Returns an object from JSON.parse*`
-
+- `date` *Returns a date object*
+- `file` *Returns a multer object*
+- `json` *Returns an object from JSON.parse*
 - `email`
 - `ip`
 - `url`
 - `domain`
 - `base64`
-
-- `color  *Hexidecimal color*`
-- `hex  *Hexidecimal number*`
+- `color` *Hexidecimal color*
+- `hex` *Hexidecimal number*
 - `isbn`
 - `isin`
 - `uuid`
-- `mongo  *Mongo object id*`
-- `card  *Debit/credit card*`
+- `mongo` *Mongo object id*
+- `card` *Debit/credit card*
