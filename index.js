@@ -3,35 +3,35 @@ var val = require('validator');
 //------------------------------------------------------------
 //String
 exports.string = function(object, error){
-	return val.toString(string);
+	return val.toString(object);
 }
 //Boolean
 exports.boolean = function(object, error){
-	if (!val.isBoolean(string)){
+	if (!val.isBoolean(object)){
 		throw error || "";
 	}
-	return val.toBoolean(string);
+	return val.toBoolean(object);
 }
 //Float
 exports.float = function(object, error){
-	if (!val.isFloat(string)){
+	if (!val.isFloat(object)){
 		throw error || "";
 	}
-	return val.toFloat(string);
+	return val.toFloat(object);
 }
 //Integer
 exports.integer = function(object, error){
-	if (!val.isInt(string)){
+	if (!val.isInt(object)){
 		throw error || "";
 	}
-	return val.toInt(string);
+	return val.toInt(object);
 }
 //Date
 exports.date = function(object, error){
-	if (!val.isDate(string)){
+	if (!val.isDate(object)){
 		throw error || "";
 	}
-	return val.toDate(string);
+	return val.toDate(object);
 }
 //------------------------------------------------------------
 //File
@@ -45,95 +45,95 @@ exports.file = function(object, error){
 }
 //JSON
 exports.json = function(object, error){
-	if (!val.isJSON(string)){
+	if (!val.isJSON(object)){
 		throw error || "";
 	}
-	return JSON.parse(string);
+	return JSON.parse(object);
 }
 //------------------------------------------------------------
 //Email
 exports.email = function(object, error){
-	if (!val.isEmail(string)){
+	if (!val.isEmail(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //IP
 exports.ip = function(object, error){
-	if (!val.isIP(string)){
+	if (!val.isIP(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //URL
 exports.url = function(object, error){
-	if (!val.isURL(string)){
+	if (!val.isURL(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //Domain
 exports.domain = function(object, error){
-	if (!val.isFQDN(string)){
+	if (!val.isFQDN(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //Base64
 exports.base64 = function(object, error){
-	if (!val.isBase64(string)){
+	if (!val.isBase64(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //------------------------------------------------------------
 //Color
 exports.color = function(object, error){
-	if (!val.isHexColor(string)){
+	if (!val.isHexColor(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //Hex
 exports.hex = function(object, error){
-	if (!val.isHexadecimal(string)){
+	if (!val.isHexadecimal(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //ISBN
 exports.isbn = function(object, error){
-	if (!val.isISBN(string)){
+	if (!val.isISBN(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //ISIN
 exports.isin = function(object, error){
-	if (!val.isISIN(string)){
+	if (!val.isISIN(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //UUID
 exports.uuid = function(object, error){
-	if (!val.isUUID(string)){
+	if (!val.isUUID(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //Mongo
 exports.mongo = function(object, error){
-	if (!val.isMongoId(string)){
+	if (!val.isMongoId(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //Credit/Debit
 exports.card = function(object, error){
-	if (!val.isCreditCard(string)){
+	if (!val.isCreditCard(object)){
 		throw error || "";
 	}
-	return val.toString(string);
+	return val.toString(object);
 }
 //------------------------------------------------------------
