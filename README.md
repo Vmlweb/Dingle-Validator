@@ -21,7 +21,7 @@ exports.params.email = {
 
 ## Custom Errors
 
-To return a custom error message when validation has failed you must pass it into the function like so:
+To return a custom error you must pass it into the function like so:
 
 ```javascript
 exports.params.email = {
@@ -37,25 +37,25 @@ exports.params.email = {
 
 You can use any of the following data types from this module:
 
-- `string`
-- `boolean`
-- `float`
-- `integer`
-- `date` (Returns a date object)
+- string
+- boolean
+- float
+- integer
+- date (Returns a date object)
 
-- `file` (Returns a multer object)
-- `json` (Returns an object from JSON.parse)
+- file (Returns a multer object)
+- json (Returns an object from JSON.parse)
 
-- `email`
-- `ip`
-- `url`
-- `domain`
-- `base64`
+- email
+- ip
+- url
+- domain
+- base64
 
-- `color` (Hexidecimal color)
-- `hex` (Hexidecimal number)
-- `isbn`
-- `isin`
-- `uuid`
-- `mongo` (Mongo object id)
-- `card` (Debit/credit card)
+- color (Hexidecimal color)
+- hex (Hexidecimal number)
+- isbn
+- isin
+- uuid
+- mongo (Mongo object id)
+- card (Debit/credit card)
