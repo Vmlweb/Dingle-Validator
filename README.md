@@ -1,5 +1,5 @@
 # Dingle Validator
-Parameter Validation for [Dingle](https://github.com/Vmlweb/Dingle)
+[Dingle](https://github.com/Vmlweb/Dingle) Parameter Validation
 
 ## Installation
 
